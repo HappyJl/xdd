@@ -1,0 +1,14 @@
+:root{
+    --color-one:hsl(202, 100%, 88%);
+    --color-bg:hsl(215, 89%, 7%);
+    --color-two:hsl(216, 89%, 18%);
+    --color-for-hover:hsl(210, 38%, 52%);
+    --color-three:hsl(213, 42%, 64%);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--color-bg);
+    color: white;
+}

@@ -1,0 +1,25 @@
+.main-block{
+    padding:5px 0px 5px 5px;
+    display: flex;
+    background-color: var(--color-two);
+    min-height: 100px;
+    z-index: 1;
+}
+.sub_main_block{
+    min-width: 250px;
+    margin-left: 150px;
+    font-size: 28px;
+    border-radius: 6px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.sub_main_block:hover{
+    background-color: var(--color-for-hover);
+    transition: 0.6s; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}

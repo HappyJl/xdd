@@ -1,0 +1,39 @@
+.container{
+    margin: 0px 20px 20px 0px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_block_item{
+    background-color: var(--color-two);
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 500px;
+    margin-left: 150px;
+    margin-top: 30px;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+.block_image{
+    width: 100%;
+    margin: 0;
+    height: 80%;
+    width: 300px;
+}
+.block_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.block_product_name{
+    margin-left: 5px;
+    width: 100%;
+}
+.block_product_price{
+    margin-left: 5px;
+    width: 100%;
+}
+.buy{
+    margin-left: 5px;
+}
